@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../src/assets/img/logo.svg';
 
 const App = () => {
   const [apiResponse, setApiResponse] = useState('');  
